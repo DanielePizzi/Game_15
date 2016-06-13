@@ -1,0 +1,136 @@
+#game{
+	width:400px;
+	height:400px;
+	position:relative;
+}
+
+.box{
+	width:100px;
+	height:100px;
+	float:left;
+	border: 5px solid #000;	
+	background-size: 400px 400px;
+
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+p{
+	position:relative;
+	text-align:center;
+	top:29.5px;
+	margin-bottom:0px;
+}
+
+#banner{
+	width:300px;
+	height:180px;
+	border:solid 1px blue;
+	background-color:gray;
+	position:absolute;
+	opacity:0.8;
+	top:50px;
+	left:50px;
+}
+
+#banner p{
+	font-size:30px;
+	color:blue;
+	top:75px;
+}
+
+.box.active:hover{
+	color:red;
+	border-color:red;
+	cursor:pointer;
+}
+
+.bg1 .box {
+	background-image: url(bg1.jpg);
+}
+.bg2 .box {
+	background-image: url(bg2.jpg);
+}
+.bg3 .box {
+	background-image: url(bg3.jpg);
+}
+.bg4 .box {
+	background-image: url(bg4.jpg);
+}
+
+/* Prima riga */
+
+.box#box0 {
+	background-position: 0 0;
+}
+
+.box#box1 {
+	background-position: -100px 0;
+}
+
+.box#box2 {
+	background-position: -200px 0;
+}
+
+.box#box3 {
+	background-position: -300px 0;
+}
+
+/* Seconda riga */
+
+.box#box4 {
+	background-position: 0 -100px;
+}
+
+.box#box5 {
+	background-position: -100px -100px;
+}
+
+.box#box6 {
+	background-position: -200px -100px;
+}
+
+.box#box7 {
+	background-position: -300px -100px;
+}
+
+/* Terza riga */
+
+.box#box8 {
+	background-position: 0 -200px;
+}
+
+.box#box9 {
+	background-position: -100px -200px;
+}
+
+.box#box10 {
+	background-position: -200px -200px;
+}
+
+.box#box11 {
+	background-position: -300px -200px;
+}
+
+/* Quarta riga */
+
+.box#box12 {
+	background-position: 0 -300px;
+}
+
+.box#box13 {
+	background-position: -100px -300px;
+}
+
+.box#box14 {
+	background-position: -200px -300px;
+}
+
+.box#box15 {
+	background-position: -300px -300px;
+}
+
+.incompleto .box#box15 {
+	background: #333;
+}
